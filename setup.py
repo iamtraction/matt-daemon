@@ -28,4 +28,5 @@ setup(
     keywords='http daemon matt matt-daemon httpd server',
     packages=find_packages(),
     python_requires='>=3.5',
+    scripts=[ 'matt.py' ],
 )
