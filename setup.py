@@ -6,7 +6,7 @@ with open('README.rst', 'r', 'utf-8') as f:
 
 setup(
     name='matt-daemon',
-    version='1.0.0',
+    version='1.0.1',
     description='A lightweight HTTP daemon for serving static files. With Matt Daemon, there are no surprises. He just serves.',
     long_description=readme,
     url='https://github.com/k3rn31p4nic/matt-daemon',
@@ -28,5 +28,5 @@ setup(
     keywords='http daemon matt matt-daemon httpd server',
     packages=find_packages(),
     python_requires='>=3.5',
-    scripts=[ 'matt.py' ],
+    scripts=[ 'matt-daemon.py' ],
 )
