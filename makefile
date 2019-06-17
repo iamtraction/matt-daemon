@@ -8,9 +8,9 @@ help:
 # make build - Build packages for distribution.
 build:
 	@echo "Building Source Distribution files..."
-	@python setup.py sdist
+	@python3 setup.py sdist
 	@echo "Building Wheels..."
-	@python setup.py bdist_wheel
+	@python3 setup.py bdist_wheel
 	@echo
 
 # make publish - Publish packages for PyPi.
