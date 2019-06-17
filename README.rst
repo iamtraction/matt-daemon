@@ -29,8 +29,12 @@ To start the Matt Daemon, all you need to do is run the following command:
 
     $ matt-daemon
 
+Credits
+-------
+A funny post in `r/ProgrammerHumor`_
 
 .. _Python: https://python.org
 .. _PyPI: https://pypi.python.org/
 .. _download and install Python: https://www.python.org/downloads/
 .. _pip install: https://docs.python.org/3/installing/index.html
+.. _r/ProgrammerHumor: https://www.reddit.com/r/ProgrammerHumor/
